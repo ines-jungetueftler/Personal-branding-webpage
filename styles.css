@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #C8A2C8; /* Lila */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#about-me {
+    padding: 40px 20px;
+    background-color: #D0EFDE; /* Light green background full width */
+    text-align: center;        /* Center h2 and image by default */
+}
+
+#about-me h2 {
+    margin-bottom: 20px;       /* Add spacing under heading */
+}
+
+#about-me .content {
+    width: 60%;                /* Limit text width */
+    margin: 0 auto;            /* Center block */
+    text-align: left;          /* Text stays left-aligned */
+}
+
+#about-me .profile-image {
+    margin-top: 20px;
+    width: 60%;              /* Adjust size as needed */
+	height: 600px;
+    border-radius: 0%;        /* Make it circular */
+}
+
+
+#cv {
+    background: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#video {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;        /* Center the section heading */
+}
+
+/* Outer container controls width and centering */
+.video-container {
+  width: 60%;                /* Video section takes 60% width */
+  max-width: 960px;          /* Optional: maximum width */
+  margin: 0 auto;            /* Center horizontally */
+  position: relative;
+  aspect-ratio: 16 / 9;      /* Keep 16:9 aspect ratio (modern browsers) */
+}
+
+/* Make the iframe fill the container */
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+footer {
+    background: #0A66C2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
